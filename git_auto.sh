@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-commit_m =  "$1"
+commit_m =  "$*"
 git add . -A
 git commit -m "$commit_m"
 git push origin master
